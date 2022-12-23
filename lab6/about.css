@@ -1,0 +1,33 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Jura', sans-serif;
+    background-color: black;
+    color: white;
+    background-image: url(images/bi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav .nav-link.active {
+	background-color: hsl(182, 97%, 52%);
+	color: black;
+}
+
+.nav-link {
+	color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+}
+
+@media print{
+    header {
+      display: none;
+    }
+}
+

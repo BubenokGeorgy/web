@@ -1,0 +1,63 @@
+button {
+	border-radius: 50%;
+}
+
+body, main {
+	min-height: 100vh;
+	background-color: green;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calc-container {
+	background-color: rgb(8, 92, 160);
+	width: 400px;
+	height: 340px;
+	border: 3px solid rgb(72,21,81);
+	border-radius: 1%;
+}
+
+.buttons {
+	display: flex;
+}
+
+.digits {
+	width: 250px;
+}
+
+.other {
+	width: 180px;
+	border-left: 2px solid rgb(72,21,81);
+}
+
+.digits button {
+	margin: 5px;
+	width: 55px;
+	height: 55px;
+	font-size: 30px;
+}
+
+.other button {
+	margin: 5px;
+	width: 55px;
+	height: 55px;
+	font-size: 30px;
+}
+
+.screen {
+	height: 80px;
+	text-align: center;
+	border-bottom: 2px solid rgb(72,21,81);
+}
+
+.screen span {
+	margin-right: 40px;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgb(0,0,0);
+	word-wrap: break-word;
+}
